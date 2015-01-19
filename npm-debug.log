@@ -1,0 +1,196 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/node/node-v0.10.35/bin/node',
+1 verbose cli   '/usr/local/node/node-default/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'angular',
+1 verbose cli   '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose cache add [ 'angular', null ]
+5 verbose cache add name=undefined spec="angular" args=["angular",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'angular',
+6 verbose parsed url   path: 'angular',
+6 verbose parsed url   href: 'angular' }
+7 silly lockFile 54e0c177-angular angular
+8 verbose lock angular /home/vagrant/.npm/54e0c177-angular.lock
+9 silly lockFile 54e0c177-angular angular
+10 silly lockFile 54e0c177-angular angular
+11 verbose addNamed [ 'angular', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile fdbbf89d-angular angular@
+14 verbose lock angular@ /home/vagrant/.npm/fdbbf89d-angular.lock
+15 silly addNameRange { name: 'angular', range: '*', hasData: false }
+16 verbose request where is /angular
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 3467acbbf3667e1e
+19 verbose url raw /angular
+20 verbose url resolving [ 'https://registry.npmjs.org/', './angular' ]
+21 verbose url resolved https://registry.npmjs.org/angular
+22 verbose request where is https://registry.npmjs.org/angular
+23 info trying registry request attempt 1 at 21:30:07
+24 verbose etag "3IYIRXUH36PXG9D19M1PS982L"
+25 http GET https://registry.npmjs.org/angular
+26 http 304 https://registry.npmjs.org/angular
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Mon, 19 Jan 2015 21:30:15 GMT',
+27 silly registry.get     server: 'Apache',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'last-modified': 'Mon, 19 Jan 2015 21:30:15 GMT',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     etag: '"3IYIRXUH36PXG9D19M1PS982L"',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-iad2147-IAD',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1421703015.392093,VS0,VE8',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'content-length': '0',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 verbose etag https://registry.npmjs.org/angular from cache
+29 silly addNameRange number 2 { name: 'angular', range: '*', hasData: true }
+30 silly addNameRange versions [ 'angular',
+30 silly addNameRange   [ '0.0.1',
+30 silly addNameRange     '0.0.1-1',
+30 silly addNameRange     '0.0.1-2',
+30 silly addNameRange     '0.0.2',
+30 silly addNameRange     '0.0.3',
+30 silly addNameRange     '0.0.4',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '1.0.1',
+30 silly addNameRange     '1.0.2',
+30 silly addNameRange     '1.0.3',
+30 silly addNameRange     '1.0.4',
+30 silly addNameRange     '1.0.5',
+30 silly addNameRange     '1.0.6',
+30 silly addNameRange     '1.0.7',
+30 silly addNameRange     '1.0.8',
+30 silly addNameRange     '1.1.0',
+30 silly addNameRange     '1.1.1',
+30 silly addNameRange     '1.1.2',
+30 silly addNameRange     '1.1.3',
+30 silly addNameRange     '1.1.4',
+30 silly addNameRange     '1.1.5',
+30 silly addNameRange     '1.2.0',
+30 silly addNameRange     '1.2.1',
+30 silly addNameRange     '1.2.2',
+30 silly addNameRange     '1.2.3',
+30 silly addNameRange     '1.2.4',
+30 silly addNameRange     '1.2.5',
+30 silly addNameRange     '1.2.6',
+30 silly addNameRange     '1.2.7',
+30 silly addNameRange     '1.2.8',
+30 silly addNameRange     '1.2.9',
+30 silly addNameRange     '1.2.10',
+30 silly addNameRange     '1.2.11',
+30 silly addNameRange     '1.2.12',
+30 silly addNameRange     '1.2.13',
+30 silly addNameRange     '1.2.14',
+30 silly addNameRange     '1.2.15',
+30 silly addNameRange     '1.2.16',
+30 silly addNameRange     '1.2.17',
+30 silly addNameRange     '1.2.18',
+30 silly addNameRange     '1.2.19',
+30 silly addNameRange     '1.2.20',
+30 silly addNameRange     '1.2.21',
+30 silly addNameRange     '1.2.22',
+30 silly addNameRange     '1.2.23',
+30 silly addNameRange     '1.3.0-rc.5',
+30 silly addNameRange     '1.3.0',
+30 silly addNameRange     '1.3.1',
+30 silly addNameRange     '1.3.2',
+30 silly addNameRange     '1.3.3',
+30 silly addNameRange     '1.3.4-build.3588',
+30 silly addNameRange     '1.2.27',
+30 silly addNameRange     '1.3.4',
+30 silly addNameRange     '1.3.5',
+30 silly addNameRange     '1.3.36',
+30 silly addNameRange     '1.3.6',
+30 silly addNameRange     '1.3.7',
+30 silly addNameRange     '1.2.28',
+30 silly addNameRange     '1.3.8',
+30 silly addNameRange     '1.4.0-beta.0',
+30 silly addNameRange     '1.3.9' ] ]
+31 verbose addNamed [ 'angular', '1.3.9' ]
+32 verbose addNamed [ '1.3.9', '1.3.9' ]
+33 silly lockFile e7096ae8-angular-1-3-9 angular@1.3.9
+34 verbose lock angular@1.3.9 /home/vagrant/.npm/e7096ae8-angular-1-3-9.lock
+35 silly lockFile e7096ae8-angular-1-3-9 angular@1.3.9
+36 silly lockFile e7096ae8-angular-1-3-9 angular@1.3.9
+37 silly lockFile fdbbf89d-angular angular@
+38 silly lockFile fdbbf89d-angular angular@
+39 silly resolved [ { name: 'angular',
+39 silly resolved     version: '1.3.9',
+39 silly resolved     description: 'HTML enhanced for web apps',
+39 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+39 silly resolved     repository:
+39 silly resolved      { type: 'git',
+39 silly resolved        url: 'https://github.com/angular/angular.js.git' },
+39 silly resolved     keywords: [ 'angular', 'framework', 'browser', 'client-side' ],
+39 silly resolved     author:
+39 silly resolved      { name: 'Angular Core Team',
+39 silly resolved        email: 'angular-core+npm@google.com' },
+39 silly resolved     license: 'MIT',
+39 silly resolved     bugs: { url: 'https://github.com/angular/angular.js/issues' },
+39 silly resolved     homepage: 'http://angularjs.org',
+39 silly resolved     gitHead: '0352070ca15edb9ad4f809583596fb6c07c8f70b',
+39 silly resolved     _id: 'angular@1.3.9',
+39 silly resolved     _shasum: '94241f9a41c882d2a7f68961d3b3b5b8d15e5e99',
+39 silly resolved     _from: 'angular@',
+39 silly resolved     _npmVersion: '2.0.2',
+39 silly resolved     _nodeVersion: '0.10.26',
+39 silly resolved     _npmUser: { name: 'angularcore', email: 'angular-core+npm@google.com' },
+39 silly resolved     maintainers: [ [Object], [Object] ],
+39 silly resolved     dist:
+39 silly resolved      { shasum: '94241f9a41c882d2a7f68961d3b3b5b8d15e5e99',
+39 silly resolved        tarball: 'http://registry.npmjs.org/angular/-/angular-1.3.9.tgz' },
+39 silly resolved     directories: {},
+39 silly resolved     _resolved: 'https://registry.npmjs.org/angular/-/angular-1.3.9.tgz',
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install angular@1.3.9 into /usr/local/node/node-v0.10.35/lib
+41 info installOne angular@1.3.9
+42 verbose lib/node_modules/angular unbuild
+43 verbose tar unpack /home/vagrant/.npm/angular/1.3.9/package.tgz
+44 silly lockFile 60575c70-0-10-35-lib-node-modules-angular tar:///usr/local/node/node-v0.10.35/lib/node_modules/angular
+45 verbose lock tar:///usr/local/node/node-v0.10.35/lib/node_modules/angular /home/vagrant/.npm/60575c70-0-10-35-lib-node-modules-angular.lock
+46 silly lockFile b7cfba20-nt-npm-angular-1-3-9-package-tgz tar:///home/vagrant/.npm/angular/1.3.9/package.tgz
+47 verbose lock tar:///home/vagrant/.npm/angular/1.3.9/package.tgz /home/vagrant/.npm/b7cfba20-nt-npm-angular-1-3-9-package-tgz.lock
+48 silly gunzTarPerm modes [ '775', '664' ]
+49 error Error: EACCES, mkdir '/usr/local/node/node-v0.10.35/lib/node_modules/angular'
+49 error  { [Error: EACCES, mkdir '/usr/local/node/node-v0.10.35/lib/node_modules/angular']
+49 error   errno: 3,
+49 error   code: 'EACCES',
+49 error   path: '/usr/local/node/node-v0.10.35/lib/node_modules/angular',
+49 error   fstream_type: 'Directory',
+49 error   fstream_path: '/usr/local/node/node-v0.10.35/lib/node_modules/angular',
+49 error   fstream_class: 'DirWriter',
+49 error   fstream_stack:
+49 error    [ '/usr/local/node/node-v0.10.35/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+49 error      '/usr/local/node/node-v0.10.35/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+49 error      'Object.oncomplete (fs.js:108:15)' ] }
+50 error Please try running this command again as root/Administrator.
+51 error System Linux 3.2.0-23-generic
+52 error command "/usr/local/node/node-v0.10.35/bin/node" "/usr/local/node/node-default/bin/npm" "install" "angular" "-g"
+53 error cwd /vagrant/projects/example_nodejs
+54 error node -v v0.10.35
+55 error npm -v 1.4.28
+56 error path /usr/local/node/node-v0.10.35/lib/node_modules/angular
+57 error fstream_path /usr/local/node/node-v0.10.35/lib/node_modules/angular
+58 error fstream_type Directory
+59 error fstream_class DirWriter
+60 error code EACCES
+61 error errno 3
+62 error stack Error: EACCES, mkdir '/usr/local/node/node-v0.10.35/lib/node_modules/angular'
+63 error fstream_stack /usr/local/node/node-v0.10.35/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+63 error fstream_stack /usr/local/node/node-v0.10.35/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+63 error fstream_stack Object.oncomplete (fs.js:108:15)
+64 verbose exit [ 3, true ]
